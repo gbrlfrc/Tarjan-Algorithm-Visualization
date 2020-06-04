@@ -9,7 +9,7 @@ Download anaconda form [Anaconda](https://www.anaconda.com/products/individual)<
 ###### Graph-tools:
 To run graph-tools you must first install it and then create a virtual enviorment where to use it.<br/>
 In terminal run: <br/>
-> conda create --name gt -c conda-forge graph-tool
+> conda create --name gt -c conda-forge graph-tool<br/>
 > conda activate gt ('conda deactivate' to exit from virtual enviorment)
 
 
