@@ -64,3 +64,10 @@ def scc(graph):
         if (connected_components[node]==0):
             dfs_scc(graph, node, connected_components, visited_nodes)
     return connected_components
+
+def getComponents(cc):
+    components={}
+    for i in cc.keys():
+        if cc[i] not in components: components[cc[i]]=[i]
+        else: components[cc[i]].append(i)
+    return components
