@@ -4,7 +4,7 @@ Visualize how Tarjan algorithm works with interactive application. Made in pytho
 # Usage
 In order to run main.py some packages are needed.<br/>
 ###### Anaconda:
-Which includes collections.deque, math, os, random and matplotlib libraries used in this program.<br/>
+Which includes collections.deque, math, os, random and matplotlib; libraries used in this program.<br/>
 Download anaconda form [Anaconda](https://www.anaconda.com/products/individual)<br/>
 ###### Graph-tools:
 To run graph-tools you must first install it and then create a virtual enviorment where to use it.<br/>
